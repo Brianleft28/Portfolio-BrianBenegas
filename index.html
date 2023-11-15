@@ -1,16 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Benegas</title>
-    <!-- CUSTOM CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio Personal | Brian</title>
 </head>
-<body>
-    
 
-<!-- JAVASCRIPT CUSTOMIZE -->
-<script src="./js/app.js"></script>
+<body>
+
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Brian Nahuel Benegas</h1>
+            <h3>Desarrollador Web</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>Sobre mí</h1>
+            <a target="_blank" download="CV-BrianBenegas.pdf" href="CV-BrianBenegas.pdf">Mi curriculum</a>
+        </div>
+
+        <div class="card">
+            <img src="./assets/foto-cv.png" alt="BrianBenegas">
+            <div class="info">
+                <h1>Hola! soy Brian Benegas</h1>
+                <p>
+                    Soy un apasionado en el mundo de la programación, me encanta pasar el tiempo buscando nuevos desafios y aprendiendo nuevas tecnologías. Hace un año entré al mundo del desarrollo y a medida que avanzo, las posibilidades se incrementan a pasos agigantados. Me encanta seguir aprendiendo y experimentar el código día a día.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+
+            <h1>Habilidades</h1>
+            <a target="_blank"
+                href="https://www.linkedin.com/in/brian-benegas-44770729b/">LinkedIn</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-devices'></i>
+                    <h1>Proyectos</h1>
+                    <p> Acá, en mi <a class="git" target="_blank" href="https://github.com/Brianleft28/">GitHub</a>
+                        vas a poder explorar los proyectos que voy creando y programando de a poco, con el conocimiento puesto en aprendizaje. Abajo habrá una respresentación gráfica sobre lo aprendido y los skills que muestran. Cada día me doy cuenta que no son muchos, y que el estudio relacionado a la tecnología nunca deja de retro-alimentarse. 
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <h1>Mi Recorrido</h1>
+                    <p> Mi perfil laboral se desempeño en el mundo de la tecnología desde mis primeros trabajos, donde utilizaba programas de diseño como Photoshop e Ilustrator. En el 2019 me encontré con el desarrollo WEB y desde entonces siempre tengo un rato para dedicarme a aprender algo nuevo y volver a <b>MDN</b>. Quisiera poder trabajar y seguir aprendendiendo al mismo tiempo!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-component'></i>
+                    <h1>Cursos y Carreras</h1>
+                    <p>
+                        En 2019 comenzé viendo videos en yt, fue un hobby que tuve mientras hacía una carrera oriantada a Ciencia Sociales. Luego del 2022, hice mi primer curso sobre IT en <b>Coderhouse</b>, <b>Programación SQL.</b> Luego de ese curso, seguí estudiando en práctica y documentación HTML5 y CSS3, y es hoy en día donde comencé a estudiar JAVASCRIPT, también en <b>CODERHOUSE</b> y por supuesto que de manera autónoma.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades" id="habilidades">
+        <div class="habilidades-column">
+
+            <div class="habilidades-caja">
+                <div class="habilidades-contenido">
+                    <div class="progreso">
+                        <h3>HTML - CSS<span>75%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progreso">
+                        <h3>JAVASCRIPT<span>45%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progreso">
+                        <h3>BOOTSTRAP 5<span>60%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progreso">
+                        <h3>GITHUB<span>50%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    
+                    <div class="progreso">
+                        <h3>COPYWRITING<span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progreso">
+                        <h3>WORDPRESS<span>35%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p> &copy; Creado en 2023 by Brian Benegas</p>
+        </div>
+        <button class="scroll-top" onclick="scrollToTop()">
+            <i class='bx bxs-up-arrow'></i>
+        </button>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/Particles.js"></script>
 </body>
+
 </html>
